@@ -1,6 +1,15 @@
 # 📚 Libft
 
-The `libft` project is the very first project of 42.
+The `libft` project is the very first project at 42 school.
+
+This project consists of recreating existing standard library functions.
+
+Through this project, we revisit the basics of C such as :
+- string manipulation
+- memory allocation
+- basic operations.
+
+Additionally, we explore a new aspect of C: linked lists.
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
