@@ -71,42 +71,58 @@ Additionally, we explore a new aspect of C: linked lists.
 
 ---
 
-## 💾 Installation
+## ⚙️ Usage
+
+Step 1:
+
+Run in your shell environment :
 ```bash
 git clone https://github.com/ton-utilisateur/libft.git
 cd libft
 make
 ```
-Cela génère le fichier `libft.a` à l'intérieur du dossier.
+Now you have `libft.a` which is a static library.
 
 ---
 
-## 🛠 Utilisation
-Inclure `libft.h` dans vos fichiers C, puis compiler avec la bibliothèque :
+Step 2:
+Next step is to import `libft.a` and `libft.h` at the root of your own project, and use the
+the functions linked to it.
+
+There is a simple program called `test.c`:
+
 ```bash
-gcc main.c libft.a -o programme
+//Include header form libft.h
+#include "libft.h"
+
+int main( void )
+{
+    //ft_putstr_fd is a function which take a string and a file descriptor as arguments.
+    ft_putstr_fd("Hello World !", 1);
+    return 0;
+}
 ```
 
----
+Step 4:
 
-## 🧪 Tests
-Vous pouvez utiliser vos propres tests ou un framework de test externe :
+Once the file is builded, compile it with this :
 ```bash
-make test
+gcc -Wall -Wextra -Werror libft.a test.c -o program
+```
+
+Step 5:
+
+Run whit this :
+```bash
+./program
+```
+
+And your terminal will print :
+```bash
+Hello World !
 ```
 
 ---
 
 ## 🤝 Contribution
-Les contributions sont les bienvenues !
-
-1. Fork le projet  
-2. Crée une branche (`git checkout -b feature/ma-fonction`)  
-3. Commit (`git commit -m "Ajout de ma fonction"`)  
-4. Push (`git push origin feature/ma-fonction`)  
-5. Ouvre une Pull Request
-
----
-
-## 📜 Licence
-MIT
+Contributions are open, make a pull request or open an issue 🚀
