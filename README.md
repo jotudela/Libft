@@ -6,34 +6,33 @@ Elle constitue une base solide pour de futurs projets C en fournissant des outil
 ---
 
 ## 📂 Functions list
----
 
 | Part 1 (24/24) | Prototype                                       |
 |----------------|------------------------------------------------|
 | [ft_atoi](ft_atoi.c)        | `int ft_atoi(const char *str);`                |
-| ft_bzero       | `void ft_bzero(void *s, size_t n);`            |
-| ft_calloc      | `void *ft_calloc(size_t count, size_t size);`  |
-| ft_isalnum     | `int ft_isalnum(int c);`                        |
-| ft_isalpha     | `int ft_isalpha(int c);`                        |
-| ft_isascii     | `int ft_isascii(int c);`                        |
-| ft_isdigit     | `int ft_isdigit(int c);`                        |
-| ft_isprint     | `int ft_isprint(int c);`                        |
-| ft_memccpy     | `void *ft_memccpy(void *dst, const void *src, int c, size_t n);` |
-| ft_memchr      | `void *ft_memchr(const void *s, int c, size_t n);` |
-| ft_memcmp      | `int ft_memcmp(const void *s1, const void *s2, size_t n);` |
-| ft_memcpy      | `void *ft_memcpy(void *dest, const void *src, size_t n);` |
-| ft_memmove     | `void *ft_memmove(void *dst, const void *src, size_t len);` |
-| ft_memset      | `void *ft_memset(void *b, int c, size_t len);` |
-| ft_strchr      | `char *ft_strchr(const char *s, int c);`       |
-| ft_strdup      | `char *ft_strdup(const char *s1);`              |
-| ft_strlcat     | `size_t ft_strlcat(char *dst, const char *src, size_t dstsize);` |
-| ft_strlcpy     | `size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);` |
-| ft_strlen      | `size_t ft_strlen(const char *s);`              |
-| ft_strncmp     | `int ft_strncmp(const char *s1, const char *s2, size_t n);` |
-| ft_strnstr     | `char *ft_strnstr(const char *haystack, const char *needle, size_t len);` |
-| ft_strrchr     | `char *ft_strrchr(const char *s, int c);`       |
-| ft_tolower     | `int ft_tolower(int c);`                         |
-| ft_toupper     | `int ft_toupper(int c);`                         |
+| [ft_bzero](ft_bzero.c)       | `void ft_bzero(void *s, size_t n);`            |
+| [ft_calloc](ft_calloc.c)      | `void *ft_calloc(size_t count, size_t size);`  |
+| [ft_isalnum](ft_isalnum.c)     | `int ft_isalnum(int c);`                        |
+| [ft_isalpha](ft_isalpha.c)     | `int ft_isalpha(int c);`                        |
+| [ft_isascii](ft_isascii.c)     | `int ft_isascii(int c);`                        |
+| [ft_isdigit](ft_isdigit.c)     | `int ft_isdigit(int c);`                        |
+| [ft_isprint](ft_isprint.c)     | `int ft_isprint(int c);`                        |
+| [ft_memccpy](ft_memccpy.c)     | `void *ft_memccpy(void *dst, const void *src, int c, size_t n);` |
+| [ft_memchr](ft_memchr.c)      | `void *ft_memchr(const void *s, int c, size_t n);` |
+| [ft_memcmp](ft_memcmp.c)      | `int ft_memcmp(const void *s1, const void *s2, size_t n);` |
+| [ft_memcpy](ft_memcpy.c)      | `void *ft_memcpy(void *dest, const void *src, size_t n);` |
+| [ft_memmove](ft_memmove.c)     | `void *ft_memmove(void *dst, const void *src, size_t len);` |
+| [ft_memset](ft_memset.c)      | `void *ft_memset(void *b, int c, size_t len);` |
+| [ft_strchr](ft_strchr.c)      | `char *ft_strchr(const char *s, int c);`       |
+| [ft_strdup](ft_strdup.c)      | `char *ft_strdup(const char *s1);`              |
+| [ft_strlcat](ft_strlcat.c)     | `size_t ft_strlcat(char *dst, const char *src, size_t dstsize);` |
+| [ft_strlcpy](ft_strlcpy.c)     | `size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);` |
+| [ft_strlen](ft_strlen.c)      | `size_t ft_strlen(const char *s);`              |
+| [ft_strncmp](ft_strncmp.c)     | `int ft_strncmp(const char *s1, const char *s2, size_t n);` |
+| [ft_strnstr](ft_strnstr.c)     | `char *ft_strnstr(const char *haystack, const char *needle, size_t len);` |
+| [ft_strrchr](ft_strrchr.c)     | `char *ft_strrchr(const char *s, int c);`       |
+| [ft_tolower](ft_tolower.c)     | `int ft_tolower(int c);`                         |
+| [ft_toupper](ft_toupper.c)     | `int ft_toupper(int c);`                         |
 
 ### Partie 2 — Fonctions supplémentaires
 | ft_itoa        | `char *ft_itoa(int n);`                          |
