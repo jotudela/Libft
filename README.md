@@ -5,12 +5,12 @@ Elle constitue une base solide pour de futurs projets C en fournissant des outil
 
 ---
 
-## 📂 Fonctions
+## 📂 Functions list
+---
 
-### Partie 1 — Fonctions de la libc
-| Fonction       | Prototype                                       |
+| Part 1 (24/24) | Prototype                                       |
 |----------------|------------------------------------------------|
-| ft_atoi        | `int ft_atoi(const char *str);`                |
+| [ft_atoi](ft_atoi.c)        | `int ft_atoi(const char *str);`                |
 | ft_bzero       | `void ft_bzero(void *s, size_t n);`            |
 | ft_calloc      | `void *ft_calloc(size_t count, size_t size);`  |
 | ft_isalnum     | `int ft_isalnum(int c);`                        |
