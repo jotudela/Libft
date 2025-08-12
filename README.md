@@ -8,7 +8,6 @@ Elle constitue une base solide pour de futurs projets C en fournissant des outil
 ## 📂 Fonctions
 
 ### Partie 1 — Fonctions de la libc
-```
 | Fonction       | Prototype                                       |
 |----------------|------------------------------------------------|
 | ft_atoi        | `int ft_atoi(const char *str);`                |
@@ -35,10 +34,8 @@ Elle constitue une base solide pour de futurs projets C en fournissant des outil
 | ft_strrchr     | `char *ft_strrchr(const char *s, int c);`       |
 | ft_tolower     | `int ft_tolower(int c);`                         |
 | ft_toupper     | `int ft_toupper(int c);`                         |
-```
 
 ### Partie 2 — Fonctions supplémentaires
-```
 | ft_itoa        | `char *ft_itoa(int n);`                          |
 | ft_putchar_fd  | `void ft_putchar_fd(char c, int fd);`            |
 | ft_putendl_fd  | `void ft_putendl_fd(char *s, int fd);`           |
@@ -50,10 +47,8 @@ Elle constitue une base solide pour de futurs projets C en fournissant des outil
 | ft_strtrim     | `char *ft_strtrim(char const *s1, char const *set);` |
 | ft_substr      | `char *ft_substr(char const *s, unsigned int start, size_t len);` |
 | ft_striteri    | `void ft_striteri(char *s, void (*f)(unsigned int, char*));` |
-```
 
 ### Bonus — Listes chaînées
-```
 | ft_lstnew       | `t_list *ft_lstnew(void *content);`              |
 | ft_lstadd_front | `void ft_lstadd_front(t_list **lst, t_list *new);` |
 | ft_lstsize      | `int ft_lstsize(t_list *lst);`                    |
@@ -63,7 +58,6 @@ Elle constitue une base solide pour de futurs projets C en fournissant des outil
 | ft_lstclear     | `void ft_lstclear(t_list **lst, void (*del)(void *));` |
 | ft_lstiter      | `void ft_lstiter(t_list *lst, void (*f)(void *));`  |
 | ft_lstmap       | `t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));` |
-```
 
 ---
 
