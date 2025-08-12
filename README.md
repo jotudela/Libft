@@ -86,7 +86,7 @@ Now you have `libft.a` which is a static library.
 ---
 
 Step 2:
-Next step is to import `libft.a` and `libft.h` at the root of your own project, and use the
+Next step is to import `libft.a` and `libft.h` at the root of your own project, and use
 the functions linked to it.
 
 There is a simple program called `test.c`:
