@@ -51,15 +51,15 @@ Elle constitue une base solide pour de futurs projets C en fournissant des outil
 
 | Bonus Functions (9/9) | Prototype                                       |
 |----------------|------------------------------------------------|
-| [ft_lstnew](ft_lstnew.c)       | `t_list *ft_lstnew(void *content);`              |
-| [ft_lstadd_front](ft_lstadd_front.c) | `void ft_lstadd_front(t_list **lst, t_list *new);` |
-| [ft_lstsize](ft_lstsize.c)      | `int ft_lstsize(t_list *lst);`                    |
-| [ft_lstlast](ft_lstlast.c)      | `t_list *ft_lstlast(t_list *lst);`                |
-| [ft_lstadd_back](ft_lstadd_back.c)  | `void ft_lstadd_back(t_list **lst, t_list *new);`  |
-| [ft_lstdelone](ft_lstdelone.c)    | `void ft_lstdelone(t_list *lst, void (*del)(void *));` |
-| [ft_lstclear](ft_lstclear.c)     | `void ft_lstclear(t_list **lst, void (*del)(void *));` |
-| [ft_lstiter](ft_lstiter.c)      | `void ft_lstiter(t_list *lst, void (*f)(void *));`  |
-| [ft_lstmap](ft_lstmap.c)       | `t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));` |
+| [ft_lstnew](ft_lstnew_bonus.c)       | `t_list *ft_lstnew(void *content);`              |
+| [ft_lstadd_front](ft_lstadd_front_bonus.c) | `void ft_lstadd_front(t_list **lst, t_list *new);` |
+| [ft_lstsize](ft_lstsize_bonus.c)      | `int ft_lstsize(t_list *lst);`                    |
+| [ft_lstlast](ft_lstlast_bonus.c)      | `t_list *ft_lstlast(t_list *lst);`                |
+| [ft_lstadd_back](ft_lstadd_back_bonus.c)  | `void ft_lstadd_back(t_list **lst, t_list *new);`  |
+| [ft_lstdelone](ft_lstdelone_bonus.c)    | `void ft_lstdelone(t_list *lst, void (*del)(void *));` |
+| [ft_lstclear](ft_lstclear_bonus.c)     | `void ft_lstclear(t_list **lst, void (*del)(void *));` |
+| [ft_lstiter](ft_lstiter_bonus.c)      | `void ft_lstiter(t_list *lst, void (*f)(void *));`  |
+| [ft_lstmap](ft_lstmap_bonus.c)       | `t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));` |
 
 ---
 
