@@ -69,7 +69,7 @@ Additionally, we explore a new aspect of C: linked lists.
 | [ft_lstiter](ft_lstiter_bonus.c)      | `void ft_lstiter(t_list *lst, void (*f)(void *));`  |
 | [ft_lstmap](ft_lstmap_bonus.c)       | `t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));` |
 
----
+![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## ⚙️ Usage
 
@@ -112,7 +112,7 @@ gcc -Wall -Wextra -Werror libft.a test.c -o program
 
 Step 5:
 
-Run whit this :
+Run with this :
 ```bash
 ./program
 ```
@@ -122,7 +122,7 @@ And your terminal will print :
 Hello World !
 ```
 
----
+![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 🤝 Contribution
 Contributions are open, make a pull request or open an issue 🚀
