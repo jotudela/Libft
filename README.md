@@ -34,18 +34,20 @@ Elle constitue une base solide pour de futurs projets C en fournissant des outil
 | [ft_tolower](ft_tolower.c)     | `int ft_tolower(int c);`                         |
 | [ft_toupper](ft_toupper.c)     | `int ft_toupper(int c);`                         |
 
-### Partie 2 — Fonctions supplémentaires
-| ft_itoa        | `char *ft_itoa(int n);`                          |
-| ft_putchar_fd  | `void ft_putchar_fd(char c, int fd);`            |
-| ft_putendl_fd  | `void ft_putendl_fd(char *s, int fd);`           |
-| ft_putnbr_fd   | `void ft_putnbr_fd(int n, int fd);`               |
-| ft_putstr_fd   | `void ft_putstr_fd(char *s, int fd);`             |
-| ft_split       | `char **ft_split(char const *s, char c);`        |
-| ft_strjoin     | `char *ft_strjoin(char const *s1, char const *s2);` |
-| ft_strmapi     | `char *ft_strmapi(char const *s, char (*f)(unsigned int, char));` |
-| ft_strtrim     | `char *ft_strtrim(char const *s1, char const *set);` |
-| ft_substr      | `char *ft_substr(char const *s, unsigned int start, size_t len);` |
-| ft_striteri    | `void ft_striteri(char *s, void (*f)(unsigned int, char*));` |
+
+| Part 2 (11/11) | Prototype                                       |
+|----------------|------------------------------------------------|
+| [ft_itoa](ft_itoa.c)        | `char *ft_itoa(int n);`                          |
+| [ft_putchar_fd](ft_putchar_fd.c)  | `void ft_putchar_fd(char c, int fd);`            |
+| [ft_putendl_fd](ft_putendl_fd.c)  | `void ft_putendl_fd(char *s, int fd);`           |
+| [ft_putnbr_fd](ft_putnbr_fd.c)   | `void ft_putnbr_fd(int n, int fd);`               |
+| [ft_putstr_fd](ft_putstr_fd.c)   | `void ft_putstr_fd(char *s, int fd);`             |
+| [ft_split](ft_split.c)       | `char **ft_split(char const *s, char c);`        |
+| [ft_strjoin](ft_strjoin.c)     | `char *ft_strjoin(char const *s1, char const *s2);` |
+| [ft_strmapi](ft_strmapi.c)     | `char *ft_strmapi(char const *s, char (*f)(unsigned int, char));` |
+| [ft_strtrim](ft_strtrim.c)     | `char *ft_strtrim(char const *s1, char const *set);` |
+| [ft_substr](ft_substr.c)      | `char *ft_substr(char const *s, unsigned int start, size_t len);` |
+| [ft_striteri](ft_striteri.c)    | `void ft_striteri(char *s, void (*f)(unsigned int, char*));` |
 
 ### Bonus — Listes chaînées
 | ft_lstnew       | `t_list *ft_lstnew(void *content);`              |
