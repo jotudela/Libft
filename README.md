@@ -77,7 +77,7 @@ Step 1:
 
 Run in your shell environment :
 ```bash
-git clone https://github.com/ton-utilisateur/libft.git
+git clone https://github.com/jotudela/Libft.git
 cd libft
 make
 ```
