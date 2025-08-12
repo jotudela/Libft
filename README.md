@@ -103,14 +103,14 @@ int main( void )
 }
 ```
 
-Step 4:
+Step 3:
 
 Once the file is builded, compile it with this :
 ```bash
 gcc -Wall -Wextra -Werror libft.a test.c -o program
 ```
 
-Step 5:
+Step 4:
 
 Run with this :
 ```bash
