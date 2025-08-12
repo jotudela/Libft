@@ -1,7 +1,6 @@
 # 📚 Libft
 
-Libft est une bibliothèque en langage C réimplémentant plusieurs fonctions standards ainsi que des utilitaires supplémentaires.  
-Elle constitue une base solide pour de futurs projets C en fournissant des outils fiables et réutilisables.
+The `libft` project is the very first project of 42.
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
