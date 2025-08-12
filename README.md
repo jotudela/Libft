@@ -124,5 +124,10 @@ Hello World !
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+My final grade :
+![](imgs/Capture d’écran 2025-08-12 à 16.17.53.png)
+
+![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## 🤝 Contribution
 Contributions are open, make a pull request or open an issue 🚀
