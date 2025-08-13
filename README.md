@@ -92,7 +92,7 @@ the functions linked to it.
 
 There is a simple program called `test.c`:
 
-```bash
+```c
 //Include header form libft.h
 #include "libft.h"
 
